@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    margin: 5px 30%;
+    text-align: center;
+    font-family: arial;
+}
+
+form{
+    width: 100%;
+}
+
+input{
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    border: 1px solid rgb(172, 172, 172) ;
+    border-radius: 5px;
+}
+button{
+    display: inline;
+    background-color: rgb(45, 139, 247);
+    border:none;
+    border-radius: 5px;
+    height: 36px;
+    width: 102%;
+    padding: 0;
+    margin: 1px 4px;
+    color: cornsilk;
+}
+div.massage{
+    display: none;
+    background-color: rgb(83, 255, 198);
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk;
+}

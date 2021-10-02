@@ -1,0 +1,40 @@
+html{
+    background: linear-gradient(to top right, #c700da 0%, #000066 100%);
+    height: 625px;
+    background-repeat: no-repeat;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: bisque;
+    font-family: Arial, Helvetica, sans-serif;    
+    margin: 0 30%;
+    align-items: center;
+    text-align: center;
+}
+input,button,th,td{
+    border: 1px solid white;
+    border-collapse:collapse;
+    border-radius: 4px;
+}
+th{
+    border-color: rgba(0, 121, 121, 0.664);
+    background-color: rgba(3, 145, 145, 0.664);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+table{
+    width: 80%
+}
+a{
+    text-decoration: none;
+    color: rgb(23, 219, 23);
+}
+.del{
+    color: crimson;
+}
+input,button{
+    height: 20px;
+    width: 70%;
+    margin: 5px;
+}
